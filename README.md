@@ -34,3 +34,15 @@ This activity helped me become familiar with the AWS account interface and ident
 
 ---
 This repository records account-navigation learning only. It does not contain or publish AWS credentials.
+
+
+## Learning Workflow
+
+```mermaid
+flowchart TD
+ A[Open AWS Console] --> B[Review Account Settings]
+ B --> C[Understand Credential Management]
+ C --> D[Review Free Tier & Billing]
+ D --> E[Enable MFA and Protect Credentials]
+ E --> F[Document Learning]
+```
